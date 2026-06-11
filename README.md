@@ -7,6 +7,8 @@ My recent work has focused on modernizing legacy software, turning XML-heavy
 content systems into queryable SQLite runtimes, and shipping cross-platform
 builds that people can actually test.
 
+[Portfolio](https://xellarant.github.io/)
+
 ## Featured Projects
 
 ### Aurora Lights
