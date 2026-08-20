@@ -7,15 +7,16 @@ README introductions, portfolio cards, resumes, and application materials.
 
 Short version:
 
-> Software engineer focused on .NET applications, legacy modernization,
-> JavaScript/Node.js tooling, domain-heavy data systems, and practical release
-> automation.
+> Software engineer focused on .NET applications, JavaScript/Node.js tooling,
+> domain-heavy data systems, practical release automation, and the Aurora
+> Lights Suite for tabletop character creation and management.
 
 Slightly warmer version:
 
 > I build software that helps complicated projects become usable: modern app
-> clients for legacy workflows, JavaScript tools for messy content formats, and
-> release pipelines that get testable builds into people's hands.
+> clients for legacy workflows, JavaScript tools for messy content formats,
+> data runtimes for domain-heavy systems, and release pipelines that get
+> testable builds into people's hands.
 
 Communication is part of the work I enjoy most: helping turn rough ideas,
 constraints, and wish lists into shared language, concrete scope, and
@@ -23,20 +24,26 @@ deliverables that solve the underlying problem while still feeling good to use.
 
 Resume summary:
 
-> .NET-focused software engineer with recent project work in MAUI/Blazor Hybrid
-> app modernization, JavaScript/Node.js browser tooling, XML-to-SQLite data
-> migration, rules/runtime evaluation, regression tooling, and GitHub Actions
-> release automation.
+> .NET-focused software engineer with recent project work in the Aurora Lights
+> Suite, including MAUI/Blazor Hybrid app modernization, JavaScript/Node.js
+> browser tooling, XML-to-SQLite data migration, rules/runtime evaluation,
+> regression tooling, and GitHub Actions release automation.
 
 ## GitHub Repository Descriptions
 
-Aurora Lights:
+Aurora Lights Suite:
+
+> Tabletop character creation and management suite spanning a modern client,
+> content-authoring tools, XML-to-SQLite migration, rules/runtime evaluation,
+> and release workflows.
+
+Aurora Reflections:
 
 > Modern .NET MAUI/Blazor Hybrid continuation of the Aurora character builder,
 > preserving legacy characters and XML content while adding a new app
 > experience.
 
-Aurora Translator:
+Aurora Transpositions (provisionally renamed from Aurora Translator):
 
 > .NET 10 CLI and runtime toolkit for importing Aurora Builder XML into
 > SQLite, evaluating rules, and producing app-facing character state.
@@ -55,8 +62,9 @@ Student Sherpa Light:
 
 The Book of Xellarant:
 
-> Aurora-compatible content source that extends Aurora Lights and helped shape
-> XML authoring and validation patterns used later in Aurora Constellations.
+> Aurora-compatible content source that extends the Aurora Lights Suite and
+> helped shape XML authoring and validation patterns used later in Aurora
+> Constellations.
 
 Wild Spirits:
 
@@ -70,7 +78,7 @@ Idle Handz:
 
 ## Pinned Project Cards
 
-### Aurora Lights
+### Aurora Reflections
 
 Modernizing a beloved legacy D&D character builder without breaking the
 characters and content people already use.
@@ -80,7 +88,8 @@ support.
 
 **Highlights:**
 
-- .NET 10 MAUI / Blazor Hybrid client for desktop-first usage.
+- .NET 10 MAUI / Blazor Hybrid client for desktop-first usage inside the
+  Aurora Lights Suite.
 - Compatibility with existing `.dnd5e` files and Aurora XML content libraries.
 - SQLite-backed content pipeline shared with modern builder workflows.
 - Book of Xellarant content-source support, modeled from examples in
@@ -91,10 +100,13 @@ support.
 **Tech:** C#, .NET 10, MAUI, Blazor Hybrid, SQLite, WPF compatibility, GitHub
 Actions, Velopack.
 
-### Aurora Translator
+### Aurora Transpositions
 
 Turning Aurora's XML content ecosystem into a normalized, queryable runtime
 layer while preserving source fidelity.
+
+This project is provisionally renamed from Aurora Translator; repository links
+may still use the earlier name until the rename is finalized.
 
 **Role:** Backend/data engineering, rules runtime design, CLI tooling,
 regression safety.
@@ -159,7 +171,7 @@ Google Workspace planning, stakeholder discovery.
 
 ### The Book of Xellarant
 
-An Aurora-compatible content source and direct plug-in for Aurora Lights,
+An Aurora-compatible content source and direct plug-in for Aurora Lights Suite,
 modeled after real examples from the `elements-1` ecosystem.
 
 **Role:** Content modeling, XML authoring, source compatibility, validation
@@ -167,7 +179,7 @@ feedback.
 
 **Highlights:**
 
-- Custom Aurora source/index files that can be consumed by Aurora Lights.
+- Custom Aurora source/index files that can be consumed by Aurora Lights Suite.
 - XML structure modeled against existing `elements-1` content-source patterns.
 - Practical authoring experience that exposed repeatable parser and validation
   needs later carried into Aurora Constellations.
@@ -212,15 +224,15 @@ and digital storytelling.
 
 ## README Introduction Drafts
 
-### Aurora Lights
+### Aurora Reflections
 
 ```markdown
 ## Portfolio Summary
 
-Aurora Lights is a modernization effort for the legacy Aurora character
-builder. The project preserves existing `.dnd5e` character files and Aurora XML
-content libraries while moving the user experience toward a modern .NET 10
-MAUI / Blazor Hybrid client.
+Aurora Reflections is the modern client inside the Aurora Lights Suite. It
+preserves existing `.dnd5e` character files and Aurora XML content libraries
+while moving the user experience toward a modern .NET 10 MAUI / Blazor Hybrid
+app.
 
 From an engineering standpoint, the interesting work is the migration path:
 keeping legacy workflows alive, introducing a SQLite-backed content pipeline,
@@ -228,15 +240,15 @@ sharing compatibility logic across clients, and shipping testable beta builds
 with a practical installer/update story.
 ```
 
-### Aurora Translator
+### Aurora Transpositions
 
 ```markdown
 ## Portfolio Summary
 
-Aurora Translator is the data and runtime foundation behind the Aurora
-modernization work. It imports Aurora Builder XML into a normalized SQLite
-model, evaluates expression/rules behavior, and emits application-facing
-character-state contracts for modern clients.
+Aurora Transpositions, provisionally renamed from Aurora Translator, is the data
+and runtime foundation behind the Aurora modernization work. It imports Aurora
+Builder XML into a normalized SQLite model, evaluates expression/rules behavior,
+and emits application-facing character-state contracts for modern clients.
 
 The project is intentionally compatibility-first: raw XML is preserved where
 fidelity matters, relational projections support fast builder queries, and
@@ -280,7 +292,7 @@ enough to generate and which needed human review.
 
 ## Case Study Drafts
 
-### Aurora Lights Case Study
+### Aurora Reflections Case Study
 
 **Problem**
 
@@ -291,10 +303,10 @@ maintenance harder.
 
 **What I Built**
 
-Aurora Lights approaches the rewrite as a gradual modernization. The modern
-client, Aurora Reflections, reuses the familiar storage model, preserves
-existing content, and introduces a MAUI / Blazor Hybrid app backed by shared
-logic and SQLite content infrastructure.
+Aurora Reflections approaches the rewrite as the modern client layer of the
+Aurora Lights Suite. It reuses the familiar storage model, preserves existing
+content, and introduces a MAUI / Blazor Hybrid app backed by shared logic and
+SQLite content infrastructure.
 
 **Engineering Notes**
 
@@ -308,10 +320,10 @@ logic and SQLite content infrastructure.
 
 **Result**
 
-The project gives Aurora users a bridge from the old desktop app toward a
-modern client without requiring an immediate content migration.
+The project gives Aurora users a bridge from the old desktop app toward the
+broader Aurora Lights Suite without requiring an immediate content migration.
 
-### Aurora Translator Case Study
+### Aurora Transpositions Case Study
 
 **Problem**
 
@@ -321,9 +333,10 @@ source format.
 
 **What I Built**
 
-Aurora Translator imports Aurora XML into SQLite, resolves package precedence and
-duplicates, parses requirements/support expressions, and evaluates character
-state into contracts that an application can consume directly.
+Aurora Transpositions imports Aurora XML into SQLite, resolves package
+precedence and duplicates, parses requirements/support expressions, and
+evaluates character state into contracts that an application can consume
+directly.
 
 **Engineering Notes**
 
@@ -365,7 +378,7 @@ XML or ZIP packages.
 **Result**
 
 The project gives Aurora content work a faster authoring loop while keeping
-the final XML visible, editable, and compatible with Aurora Lights.
+the final XML visible, editable, and compatible with Aurora Lights Suite.
 
 ## Additional Work Case Study Drafts
 

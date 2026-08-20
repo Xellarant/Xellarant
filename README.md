@@ -3,10 +3,10 @@
 I build practical .NET applications, JavaScript/Node.js tooling, migration
 systems, and release workflows for projects with real domain complexity.
 
-My recent work has focused on modernizing legacy software, turning XML-heavy
-content systems into queryable SQLite runtimes, building browser-local
-authoring tools, and shipping cross-platform builds that people can actually
-test.
+My recent work has focused on the Aurora Lights Suite: modernizing a legacy
+tabletop character builder, turning XML-heavy content systems into queryable
+SQLite runtimes, building browser-local authoring tools, and shipping
+cross-platform builds that people can actually test.
 
 I also enjoy the communication side of software: helping turn rough ideas,
 constraints, and wish lists into shared language, realistic scope, and concrete
@@ -14,13 +14,17 @@ deliverables that solve the underlying problem.
 
 [Portfolio](https://xellarant.github.io/)
 
-## Featured Projects
+## Featured Projects: Aurora Lights Suite
 
-### Aurora Lights
+The main showcase projects are related pieces of the Aurora Lights Suite for
+tabletop character creation, content authoring, data migration, and
+character-management workflows.
 
-Community-led modernization of the legacy Aurora character builder.
+### Aurora Reflections
 
-- Built around a modern .NET 10 MAUI / Blazor Hybrid client.
+Modern MAUI / Blazor Hybrid client within Aurora Lights Suite.
+
+- Builds the user-facing desktop-first character-management experience.
 - Preserves existing `.dnd5e` character files and Aurora XML content libraries.
 - Uses a SQLite-backed compendium and compatibility layer for a gradual
   migration path.
@@ -31,9 +35,10 @@ Community-led modernization of the legacy Aurora character builder.
 
 [Repository](https://github.com/Idle-Handz/Aurora-Lights)
 
-### Aurora Translator
+### Aurora Transpositions
 
-Backend migration and runtime tooling for Aurora Builder content.
+Backend migration and runtime tooling for Aurora Builder content,
+provisionally renamed from Aurora Translator.
 
 - Imports Aurora XML into a normalized SQLite model.
 - Preserves raw XML where fidelity matters while exposing builder-facing query
@@ -77,7 +82,7 @@ supplement PDFs into Aurora-compatible XML.
   and contact management, paired with requirements, assumptions, acceptance
   examples, and discovery planning.
 - **The Book of Xellarant:** Aurora-compatible content source and direct plug-in
-  for Aurora Lights, with XML patterns modeled from `elements-1`.
+  for the Aurora Lights Suite, with XML patterns modeled from `elements-1`.
 - **Wild Spirits:** Private visual novel project with GitHub Actions workflows
   for friend-facing alpha builds and cross-platform tester artifacts.
 - **Idle Handz:** Pop-culture and creative media hub for blogging, community
