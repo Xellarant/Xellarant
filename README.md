@@ -3,9 +3,9 @@
 I build practical .NET applications, JavaScript/Node.js tooling, migration
 systems, and release workflows for projects with real domain complexity.
 
-My recent work has focused on the Aurora Lights Suite: modernizing a legacy
-tabletop character builder, turning XML-heavy content systems into queryable
-SQLite runtimes, building browser-local authoring tools, and shipping
+A lot of my recent work has centered on the Aurora Lights Suite: modernizing a
+legacy tabletop character builder, turning XML-heavy content systems into
+queryable SQLite runtimes, building browser-local authoring tools, and shipping
 cross-platform builds that people can actually test.
 
 I also enjoy the communication side of software: helping turn rough ideas,
@@ -16,13 +16,12 @@ deliverables that solve the underlying problem.
 
 ## Featured Projects: Aurora Lights Suite
 
-The main showcase projects are related pieces of the Aurora Lights Suite for
-tabletop character creation, content authoring, data migration, and
-character-management workflows.
+I'm grouping these together because they are related pieces of the same larger
+tabletop character creation and management effort.
 
 ### Aurora Reflections
 
-Modern MAUI / Blazor Hybrid client within Aurora Lights Suite.
+My modern MAUI / Blazor Hybrid client within Aurora Lights Suite.
 
 - Builds the user-facing desktop-first character-management experience.
 - Preserves existing `.dnd5e` character files and Aurora XML content libraries.
@@ -37,8 +36,8 @@ Modern MAUI / Blazor Hybrid client within Aurora Lights Suite.
 
 ### Aurora Transpositions
 
-Backend migration and runtime tooling for Aurora Builder content,
-provisionally renamed from Aurora Translator.
+Backend migration and runtime tooling for Aurora Builder content. I'm
+provisionally renaming this from Aurora Translator.
 
 - Imports Aurora XML into a normalized SQLite model.
 - Preserves raw XML where fidelity matters while exposing builder-facing query

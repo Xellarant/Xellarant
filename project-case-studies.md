@@ -80,8 +80,8 @@ Idle Handz:
 
 ### Aurora Reflections
 
-Modernizing a beloved legacy D&D character builder without breaking the
-characters and content people already use.
+My modernization work for a beloved legacy D&D character builder, without
+breaking the characters and content people already use.
 
 **Role:** Application modernization, compatibility design, release workflow
 support.
@@ -102,11 +102,11 @@ Actions, Velopack.
 
 ### Aurora Transpositions
 
-Turning Aurora's XML content ecosystem into a normalized, queryable runtime
-layer while preserving source fidelity.
+My runtime/data layer for turning Aurora's XML content ecosystem into something
+normalized and queryable without losing source fidelity.
 
-This project is provisionally renamed from Aurora Translator; repository links
-may still use the earlier name until the rename is finalized.
+I'm provisionally renaming this from Aurora Translator; repository links may
+still use the earlier name until the rename is finalized.
 
 **Role:** Backend/data engineering, rules runtime design, CLI tooling,
 regression safety.
@@ -229,7 +229,7 @@ and digital storytelling.
 ```markdown
 ## Portfolio Summary
 
-Aurora Reflections is the modern client inside the Aurora Lights Suite. It
+Aurora Reflections is my modern client inside the Aurora Lights Suite. It
 preserves existing `.dnd5e` character files and Aurora XML content libraries
 while moving the user experience toward a modern .NET 10 MAUI / Blazor Hybrid
 app.
@@ -245,12 +245,12 @@ with a practical installer/update story.
 ```markdown
 ## Portfolio Summary
 
-Aurora Transpositions, provisionally renamed from Aurora Translator, is the data
-and runtime foundation behind the Aurora modernization work. It imports Aurora
+Aurora Transpositions, provisionally renamed from Aurora Translator, is my data
+and runtime foundation for the Aurora modernization work. It imports Aurora
 Builder XML into a normalized SQLite model, evaluates expression/rules behavior,
 and emits application-facing character-state contracts for modern clients.
 
-The project is intentionally compatibility-first: raw XML is preserved where
+I've kept it intentionally compatibility-first: raw XML is preserved where
 fidelity matters, relational projections support fast builder queries, and
 regression baselines protect behavior as more rules and content families are
 implemented.
@@ -285,9 +285,9 @@ and edit the generated records, validates Aurora XML shape, and exports
 ready-to-test XML packages. Its Node.js tooling covers regression tests, local
 serving, browser smoke checks, and corpus benchmark scripts.
 
-The project grew out of hands-on content-source work in Book of Xellarant, where
-real examples from `elements-1` helped clarify which XML patterns were stable
-enough to generate and which needed human review.
+This grew out of hands-on content-source work in Book of Xellarant, where real
+examples from `elements-1` helped clarify which XML patterns were stable enough
+to generate and which needed human review.
 ```
 
 ## Case Study Drafts
@@ -303,15 +303,15 @@ maintenance harder.
 
 **What I Built**
 
-Aurora Reflections approaches the rewrite as the modern client layer of the
-Aurora Lights Suite. It reuses the familiar storage model, preserves existing
-content, and introduces a MAUI / Blazor Hybrid app backed by shared logic and
-SQLite content infrastructure.
+I approached Aurora Reflections as the modern client layer of the Aurora Lights
+Suite. It reuses the familiar storage model, preserves existing content, and
+introduces a MAUI / Blazor Hybrid app backed by shared logic and SQLite content
+infrastructure.
 
 **Engineering Notes**
 
 - Compatibility is treated as a product requirement, not an afterthought.
-- The project keeps legacy and modern clients side by side while shared logic
+- I'm keeping legacy and modern clients side by side while shared logic
   matures.
 - Book of Xellarant provides a direct content-source plug-in and a practical
   test case for Aurora-compatible XML.
@@ -320,8 +320,8 @@ SQLite content infrastructure.
 
 **Result**
 
-The project gives Aurora users a bridge from the old desktop app toward the
-broader Aurora Lights Suite without requiring an immediate content migration.
+The result is a bridge from the old desktop app toward the broader Aurora
+Lights Suite without requiring users to migrate everything up front.
 
 ### Aurora Transpositions Case Study
 
@@ -333,10 +333,9 @@ source format.
 
 **What I Built**
 
-Aurora Transpositions imports Aurora XML into SQLite, resolves package
-precedence and duplicates, parses requirements/support expressions, and
-evaluates character state into contracts that an application can consume
-directly.
+In Aurora Transpositions, I import Aurora XML into SQLite, resolve package
+precedence and duplicates, parse requirements/support expressions, and evaluate
+character state into contracts that an application can consume directly.
 
 **Engineering Notes**
 
@@ -348,8 +347,8 @@ directly.
 
 **Result**
 
-The project turns a legacy XML ecosystem into a builder-ready runtime layer
-while keeping compatibility with existing authoring and distribution formats.
+The result is a builder-ready runtime layer that still respects the existing
+authoring and distribution formats.
 
 ### Aurora Constellations Case Study
 
@@ -361,10 +360,10 @@ speed up the repetitive parts while preserving human review.
 
 **What I Built**
 
-Aurora Constellations runs as a static browser app. It extracts selectable PDF
-text locally, applies deterministic parsers for supported D&D element types,
-gives the user review/edit tabs, validates Aurora XML shape, and exports single
-XML or ZIP packages.
+I built Aurora Constellations as a static browser app. It extracts selectable
+PDF text locally, applies deterministic parsers for supported D&D element
+types, gives the user review/edit tabs, validates Aurora XML shape, and exports
+single XML or ZIP packages.
 
 **Engineering Notes**
 
@@ -377,8 +376,8 @@ XML or ZIP packages.
 
 **Result**
 
-The project gives Aurora content work a faster authoring loop while keeping
-the final XML visible, editable, and compatible with Aurora Lights Suite.
+The result is a faster authoring loop for Aurora content work while keeping the
+final XML visible, editable, and compatible with Aurora Lights Suite.
 
 ## Additional Work Case Study Drafts
 
@@ -404,5 +403,5 @@ prerelease assets, including an installable Android APK for easier sharing.
 
 **Result**
 
-The project has a repeatable path for sharing alpha builds without pretending
-the game is already ready for store distribution.
+I now have a repeatable path for sharing alpha builds without pretending the
+game is already ready for store distribution.
