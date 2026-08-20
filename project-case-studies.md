@@ -8,19 +8,25 @@ README introductions, portfolio cards, resumes, and application materials.
 Short version:
 
 > Software engineer focused on .NET applications, legacy modernization,
-> domain-heavy data systems, and practical release automation.
+> JavaScript/Node.js tooling, domain-heavy data systems, and practical release
+> automation.
 
 Slightly warmer version:
 
 > I build software that helps complicated projects become usable: modern app
-> clients for legacy workflows, migration tools for messy content formats, and
+> clients for legacy workflows, JavaScript tools for messy content formats, and
 > release pipelines that get testable builds into people's hands.
+
+Communication is part of the work I enjoy most: helping turn rough ideas,
+constraints, and wish lists into shared language, concrete scope, and
+deliverables that solve the underlying problem while still feeling good to use.
 
 Resume summary:
 
 > .NET-focused software engineer with recent project work in MAUI/Blazor Hybrid
-> app modernization, XML-to-SQLite data migration, rules/runtime evaluation,
-> regression tooling, and GitHub Actions release automation.
+> app modernization, JavaScript/Node.js browser tooling, XML-to-SQLite data
+> migration, rules/runtime evaluation, regression tooling, and GitHub Actions
+> release automation.
 
 ## GitHub Repository Descriptions
 
@@ -30,26 +36,37 @@ Aurora Lights:
 > preserving legacy characters and XML content while adding a new app
 > experience.
 
-AuroraTranslator:
+Aurora Translator:
 
 > .NET 10 CLI and runtime toolkit for importing Aurora Builder XML into
 > SQLite, evaluating rules, and producing app-facing character state.
 
-Aurora XML Helper:
+Aurora Constellations (formerly Aurora XML Helper):
 
 > Browser-based tool for converting text/OCR D&D supplement PDFs into
 > Aurora-compatible XML with local deterministic parsing, review, validation,
 > and export workflows.
 
+Student Sherpa Light:
+
+> Stakeholder-review prototype for a campus outreach/contact-management
+> workflow, with requirements, assumptions, acceptance examples, and discovery
+> planning.
+
 The Book of Xellarant:
 
 > Aurora-compatible content source that extends Aurora Lights and helped shape
-> XML authoring and validation patterns used later in Aurora XML Helper.
+> XML authoring and validation patterns used later in Aurora Constellations.
 
 Wild Spirits:
 
 > Visual novel project with GitHub Actions workflows for cross-platform alpha
 > builds and tester-friendly prerelease distribution.
+
+Idle Handz:
+
+> Pop-culture and creative media hub for blogging, community updates, and
+> public-facing storytelling outside the Aurora toolchain.
 
 ## Pinned Project Cards
 
@@ -74,7 +91,7 @@ support.
 **Tech:** C#, .NET 10, MAUI, Blazor Hybrid, SQLite, WPF compatibility, GitHub
 Actions, Velopack.
 
-### AuroraTranslator
+### Aurora Translator
 
 Turning Aurora's XML content ecosystem into a normalized, queryable runtime
 layer while preserving source fidelity.
@@ -95,7 +112,7 @@ regression safety.
 **Tech:** C#, .NET 10, SQLite, XML, CLI tooling, data modeling, regression
 fixtures.
 
-### Aurora XML Helper
+### Aurora Constellations
 
 Turning text/OCR supplement PDFs into editable Aurora-compatible XML without
 requiring an external AI service.
@@ -113,8 +130,32 @@ validation workflow.
 - Parser patterns informed by hands-on Book of Xellarant content-source work
   and examples from `elements-1`.
 
-**Tech:** JavaScript, static browser app, PDF text extraction, XML generation,
-Aurora XML validation, regression tests.
+**Tech:** JavaScript, Node.js scripts, PDF.js, JSZip, Vitest, Playwright, static
+browser app, XML generation, Aurora XML validation, regression tests.
+
+## Additional Work Cards
+
+### Student Sherpa Light
+
+Turning a rough campus outreach idea into a clickable review prototype and a
+clear first-release requirements package.
+
+**Role:** Product scoping, stakeholder communication, prototype design,
+requirements framing.
+
+**Highlights:**
+
+- Review-only prototype for attention queues, searchable student records,
+  ownership, contact timelines, events, team hierarchy, and mobile concepts.
+- Concise stakeholder requirements brief with explicit assumptions, exclusions,
+  open decisions, and acceptance examples.
+- Google Workspace sign-in framed as an identity option while keeping roles,
+  campuses, domains, groups, and allowlists as separate authorization decisions.
+- Discovery and implementation paths described without treating the prototype
+  as a production commitment.
+
+**Tech:** Product prototyping, Next.js/static publishing, requirements writing,
+Google Workspace planning, stakeholder discovery.
 
 ### The Book of Xellarant
 
@@ -129,7 +170,7 @@ feedback.
 - Custom Aurora source/index files that can be consumed by Aurora Lights.
 - XML structure modeled against existing `elements-1` content-source patterns.
 - Practical authoring experience that exposed repeatable parser and validation
-  needs later carried into Aurora XML Helper.
+  needs later carried into Aurora Constellations.
 
 **Tech:** Aurora XML, source indexes, content validation scripts.
 
@@ -153,6 +194,22 @@ workflow.
 **Tech:** GitHub Actions, cross-platform build automation, release packaging,
 Android/iOS build artifacts.
 
+### Idle Handz
+
+Maintaining a public creative/community hub for pop-culture writing, updates,
+and digital storytelling.
+
+**Role:** Site ownership, content direction, community-facing communication.
+
+**Highlights:**
+
+- Public site at [idlehandz.com](https://idlehandz.com/).
+- Blog and update channel for community-oriented creative work.
+- Useful counterweight to the engineering-heavy Aurora projects because it
+  shows public-facing voice, audience awareness, and ongoing communication.
+
+**Tech:** Website publishing, content strategy, community communication.
+
 ## README Introduction Drafts
 
 ### Aurora Lights
@@ -171,12 +228,12 @@ sharing compatibility logic across clients, and shipping testable beta builds
 with a practical installer/update story.
 ```
 
-### AuroraTranslator
+### Aurora Translator
 
 ```markdown
 ## Portfolio Summary
 
-AuroraTranslator is the data and runtime foundation behind the Aurora
+Aurora Translator is the data and runtime foundation behind the Aurora
 modernization work. It imports Aurora Builder XML into a normalized SQLite
 model, evaluates expression/rules behavior, and emits application-facing
 character-state contracts for modern clients.
@@ -203,16 +260,18 @@ and leaving room for later iOS signing/TestFlight work without blocking early
 feedback.
 ```
 
-### Aurora XML Helper
+### Aurora Constellations
 
 ```markdown
 ## Portfolio Summary
 
-Aurora XML Helper is a static browser tool for turning text-based or OCR-processed
-D&D supplement PDFs into Aurora-compatible XML. It extracts selectable PDF text
-locally, applies deterministic parsers for supported element types, lets users
-review and edit the generated records, validates Aurora XML shape, and exports
-ready-to-test XML packages.
+Aurora Constellations is a static JavaScript browser tool, formerly Aurora XML
+Helper, for turning text-based or OCR-processed D&D supplement PDFs into
+Aurora-compatible XML. It extracts selectable PDF text locally with PDF.js,
+applies deterministic parsers for supported element types, lets users review
+and edit the generated records, validates Aurora XML shape, and exports
+ready-to-test XML packages. Its Node.js tooling covers regression tests, local
+serving, browser smoke checks, and corpus benchmark scripts.
 
 The project grew out of hands-on content-source work in Book of Xellarant, where
 real examples from `elements-1` helped clarify which XML patterns were stable
@@ -233,7 +292,7 @@ maintenance harder.
 **What I Built**
 
 Aurora Lights approaches the rewrite as a gradual modernization. The modern
-client, Aurora: Reflections, reuses the familiar storage model, preserves
+client, Aurora Reflections, reuses the familiar storage model, preserves
 existing content, and introduces a MAUI / Blazor Hybrid app backed by shared
 logic and SQLite content infrastructure.
 
@@ -252,7 +311,7 @@ logic and SQLite content infrastructure.
 The project gives Aurora users a bridge from the old desktop app toward a
 modern client without requiring an immediate content migration.
 
-### AuroraTranslator Case Study
+### Aurora Translator Case Study
 
 **Problem**
 
@@ -262,7 +321,7 @@ source format.
 
 **What I Built**
 
-AuroraTranslator imports Aurora XML into SQLite, resolves package precedence and
+Aurora Translator imports Aurora XML into SQLite, resolves package precedence and
 duplicates, parses requirements/support expressions, and evaluates character
 state into contracts that an application can consume directly.
 
@@ -279,7 +338,7 @@ state into contracts that an application can consume directly.
 The project turns a legacy XML ecosystem into a builder-ready runtime layer
 while keeping compatibility with existing authoring and distribution formats.
 
-### Aurora XML Helper Case Study
+### Aurora Constellations Case Study
 
 **Problem**
 
@@ -289,14 +348,16 @@ speed up the repetitive parts while preserving human review.
 
 **What I Built**
 
-Aurora XML Helper runs as a static browser app. It extracts selectable PDF text
-locally, applies deterministic parsers for supported D&D element types, gives
-the user review/edit tabs, validates Aurora XML shape, and exports single XML
-or ZIP packages.
+Aurora Constellations runs as a static browser app. It extracts selectable PDF
+text locally, applies deterministic parsers for supported D&D element types,
+gives the user review/edit tabs, validates Aurora XML shape, and exports single
+XML or ZIP packages.
 
 **Engineering Notes**
 
 - Parsing is deterministic and local instead of model-dependent.
+- Node.js scripts support Vitest regression coverage, browser smoke checks,
+  corpus benchmarking, dependency vendoring, and static serving.
 - The review step is treated as part of the product, not a failure mode.
 - Book of Xellarant and `elements-1` examples helped identify repeatable XML
   shapes, source/index conventions, and validation rules.
@@ -305,6 +366,8 @@ or ZIP packages.
 
 The project gives Aurora content work a faster authoring loop while keeping
 the final XML visible, editable, and compatible with Aurora Lights.
+
+## Additional Work Case Study Drafts
 
 ### Wild Spirits Case Study
 
