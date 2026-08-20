@@ -92,8 +92,8 @@ support.
   Aurora Lights Suite.
 - Compatibility with existing `.dnd5e` files and Aurora XML content libraries.
 - SQLite-backed content pipeline shared with modern builder workflows.
-- Book of Xellarant content-source support, modeled from examples in
-  `elements-1`.
+- Content-source support across Aurora Legacy SRD material, sources pulled from
+  the elements repo, and smaller Book of Xellarant edits/additions.
 - Windows installer/update path, with experimental Mac Catalyst and Android
   build targets.
 
@@ -313,8 +313,9 @@ infrastructure.
 - Compatibility is treated as a product requirement, not an afterthought.
 - I'm keeping legacy and modern clients side by side while shared logic
   matures.
-- Book of Xellarant provides a direct content-source plug-in and a practical
-  test case for Aurora-compatible XML.
+- Aurora Reflections uses the broader Aurora content library: SRD material from
+  Aurora Legacy, sources pulled from the elements repo, and a smaller layer of
+  Book of Xellarant edits/additions.
 - Release workflows produce practical Windows beta builds and experimental
   cross-platform artifacts.
 

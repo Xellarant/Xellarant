@@ -27,8 +27,8 @@ My modern MAUI / Blazor Hybrid client within Aurora Lights Suite.
 - Preserves existing `.dnd5e` character files and Aurora XML content libraries.
 - Uses a SQLite-backed compendium and compatibility layer for a gradual
   migration path.
-- Supports content-source work such as Book of Xellarant, modeled after
-  `elements-1` examples.
+- Works with SRD content from Aurora Legacy, sources pulled from the elements
+  repo, and smaller Book of Xellarant edits/additions.
 - Includes Windows installer/update flow plus experimental Mac Catalyst and
   Android build targets.
 
